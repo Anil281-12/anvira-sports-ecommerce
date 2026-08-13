@@ -1,0 +1,185 @@
+.payment-page{
+    width:90%;
+    margin:40px auto;
+}
+
+.checkout-title{
+    text-align:center;
+    color:#ff6600;
+    margin-bottom:35px;
+}
+
+.payment-container{
+    display:flex;
+    gap:30px;
+    align-items:flex-start;
+}
+
+.address-section{
+    flex:2;
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,.12);
+}
+
+.summary-section{
+    flex:1;
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,.12);
+    position:sticky;
+    top:20px;
+}
+
+.address-section h2,
+.summary-section h2{
+    margin-bottom:20px;
+    color:#ff6600;
+}
+
+.address-section input,
+.address-section textarea{
+    width:100%;
+    padding:14px;
+    margin-bottom:18px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.address-section textarea{
+    height:120px;
+    resize:none;
+}
+
+.row{
+    display:flex;
+    gap:15px;
+}
+
+.save-btn{
+    width:100%;
+    padding:15px;
+    background:#ff6600;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    font-size:17px;
+    cursor:pointer;
+}
+
+.save-btn:hover{
+    background:#e65c00;
+}
+
+.summary-row{
+    display:flex;
+    justify-content:space-between;
+    margin:15px 0;
+    font-size:17px;
+}
+
+.total{
+    font-size:20px;
+    font-weight:bold;
+    color:#ff6600;
+}
+
+.payment-heading{
+    margin-top:30px;
+}
+
+.payment-option{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin:15px 0;
+    font-size:17px;
+    cursor:pointer;
+}
+
+.payment-option input{
+    transform:scale(1.2);
+}
+
+.place-order-btn{
+    width:100%;
+    margin-top:25px;
+    padding:15px;
+    background:#ff6600;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.place-order-btn:hover{
+    background:#e65c00;
+}
+
+@media(max-width:900px){
+
+    .payment-container{
+        flex-direction:column;
+    }
+
+    .summary-section{
+        width:100%;
+        position:static;
+    }
+
+    .row{
+        flex-direction:column;
+        gap:0;
+    }
+
+}
+.product-heading{
+    color:#ff6600;
+    margin-bottom:20px;
+}
+
+.checkout-product{
+    display:flex;
+    gap:20px;
+    padding:20px;
+    margin-bottom:25px;
+    border:1px solid #ddd;
+    border-radius:12px;
+    background:#fafafa;
+    align-items:center;
+}
+
+.checkout-product img{
+    width:170px;
+    height:170px;
+    object-fit:contain;
+    background:#fff;
+    padding:10px;
+    border-radius:10px;
+    border:1px solid #eee;
+}
+
+.checkout-info{
+    flex:1;
+}
+
+.checkout-info h3{
+    font-size:24px;
+    margin-bottom:10px;
+}
+
+.checkout-info p{
+    margin:8px 0;
+    font-size:16px;
+}
+
+.checkout-price{
+    color:#ff6600;
+    margin-top:15px;
+    font-size:30px;
+}

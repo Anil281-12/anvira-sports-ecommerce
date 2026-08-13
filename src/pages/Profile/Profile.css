@@ -1,0 +1,167 @@
+/* ==========================================
+   PROFILE PAGE
+========================================== */
+
+.profile-page{
+    width:90%;
+    max-width:1350px;
+    margin:40px auto;
+    display:flex;
+    gap:30px;
+    align-items:flex-start;
+}
+
+/* ==========================================
+   SIDEBAR
+========================================== */
+
+.profile-sidebar{
+    width:300px;
+}
+
+/* ==========================================
+   PROFILE CARD
+========================================== */
+
+.profile-card{
+    background:#fff;
+    border-radius:14px;
+    padding:30px 20px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    border:1px solid #ececec;
+}
+
+.profile-circle{
+    width:95px;
+    height:95px;
+    margin:0 auto 18px;
+    border-radius:50%;
+    background:#ff6600;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:38px;
+    font-weight:700;
+}
+
+.profile-card h3{
+    font-size:24px;
+    color:#222;
+    margin-bottom:8px;
+}
+
+.profile-card p{
+    color:#666;
+    font-size:15px;
+    word-break:break-word;
+}
+
+/* ==========================================
+   SIDEBAR MENU
+========================================== */
+
+.profile-sidebar-menu{
+    margin-top:22px;
+    background:#fff;
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    border:1px solid #ececec;
+}
+
+.profile-sidebar-menu button{
+    width:100%;
+    padding:18px 22px;
+    border:none;
+    background:#fff;
+    text-align:left;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:500;
+    color:#333;
+    transition:.3s;
+    border-bottom:1px solid #f3f3f3;
+}
+
+.profile-sidebar-menu button:last-child{
+    border-bottom:none;
+}
+
+.profile-sidebar-menu button:hover{
+    background:#fff5ef;
+    color:#ff6600;
+    padding-left:30px;
+}
+
+.active-menu{
+    background:#ff6600 !important;
+    color:#fff !important;
+    font-weight:600;
+}
+
+/* ==========================================
+   RIGHT CONTENT
+========================================== */
+
+.profile-content{
+    flex:1;
+    background:#fff;
+    border-radius:14px;
+    padding:35px;
+    min-height:650px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    border:1px solid #ececec;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:992px){
+
+.profile-page{
+    flex-direction:column;
+}
+
+.profile-sidebar{
+    width:100%;
+}
+
+.profile-content{
+    width:100%;
+}
+
+}
+
+@media(max-width:768px){
+
+.profile-page{
+    width:95%;
+}
+
+.profile-card{
+    padding:25px 18px;
+}
+
+.profile-circle{
+    width:80px;
+    height:80px;
+    font-size:32px;
+}
+
+.profile-card h3{
+    font-size:22px;
+}
+
+.profile-sidebar-menu button{
+    font-size:15px;
+    padding:16px 18px;
+}
+
+.profile-content{
+    padding:20px;
+}
+
+}

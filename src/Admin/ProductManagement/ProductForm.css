@@ -1,0 +1,83 @@
+.product-form-container{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f4f6f9;
+    padding:40px;
+}
+
+.product-form{
+    width:700px;
+    background:#fff;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,.12);
+}
+
+.product-form h1{
+    text-align:center;
+    color:#ff6600;
+    margin-bottom:30px;
+}
+
+.product-form input,
+.product-form textarea,
+.product-form select{
+
+    width:100%;
+    padding:14px 16px;
+    margin-bottom:18px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    outline:none;
+    font-size:16px;
+    transition:.3s;
+
+}
+
+.product-form textarea{
+
+    height:120px;
+    resize:none;
+
+}
+
+.product-form input:focus,
+.product-form textarea:focus,
+.product-form select:focus{
+
+    border-color:#ff6600;
+
+}
+
+.product-form button{
+
+    width:100%;
+    height:55px;
+    border:none;
+    border-radius:8px;
+    background:#ff6600;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+.product-form button:hover{
+
+    background:#e65c00;
+
+}
+
+@media(max-width:768px){
+
+.product-form{
+
+    width:100%;
+
+}
+
+}

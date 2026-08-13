@@ -1,0 +1,191 @@
+.orders-container{
+
+    width:90%;
+
+    margin:40px auto;
+
+}
+
+.orders-container h1{
+
+    text-align:center;
+
+    color:#ff6600;
+
+    margin-bottom:35px;
+
+}
+
+.order-card{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:#fff;
+
+    padding:25px;
+
+    margin-bottom:25px;
+
+    border-radius:12px;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.12);
+
+}
+
+.order-card img{
+    width:150px;
+    height:150px;
+    object-fit:contain;
+    border:1px solid #eee;
+    padding:10px;
+    border-radius:10px;
+}
+
+.order-details{
+
+    flex:1;
+
+    margin-left:30px;
+
+}
+
+.order-details h2{
+
+    margin-bottom:12px;
+
+}
+
+.order-details p{
+
+    margin:8px 0;
+
+}
+
+.price{
+
+    font-size:26px;
+
+    color:#ff6600;
+
+    font-weight:bold;
+
+}
+
+.date{
+
+    color:gray;
+
+}
+
+.status-box{
+
+    text-align:center;
+
+}
+
+.status-box h3{
+
+    color:green;
+
+    margin-bottom:15px;
+
+}
+
+.status-box button{
+
+    background:#ff6600;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 22px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+}
+
+.status-box button:hover{
+
+    background:#e65c00;
+
+}
+
+.empty-orders{
+
+    text-align:center;
+
+    margin-top:120px;
+
+}
+
+.empty-orders h2{
+
+    color:#555;
+
+}
+
+.empty-orders p{
+
+    color:gray;
+
+    margin-top:10px;
+
+}
+.order-box{
+    background:#fff;
+    padding:25px;
+    margin-bottom:30px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.order-box hr{
+    margin:20px 0;
+}
+
+/* ===========================
+   ORDER FOOTER
+=========================== */
+
+.order-footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:20px;
+}
+
+.track-btn{
+    background:#ff6600;
+    color:#fff;
+    border:none;
+    padding:12px 22px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.track-btn:hover{
+    background:#e65c00;
+}
+
+.order-box h2{
+    color:#ff6600;
+    margin-bottom:10px;
+}
+
+.order-box h3{
+    margin-top:20px;
+    color:#333;
+}
+
