@@ -5,7 +5,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Hero from "../../components/Hero/Hero";
 import Footer from "../../components/Footer/Footer";
 
-import { getAllProducts } from "../../services/productService";
+import { getAllProducts } from "../../Services/productService";
 import { setProducts } from "../../redux/productSlice";
 
 import ProductCard from "../../components/ProductCard/ProductCard";

@@ -11,7 +11,7 @@ import "./Register.css";
 
 import { Link, useNavigate } from "react-router-dom";
 
-import { registerUser, getUsers } from "../../services/userService";
+import { registerUser, getUsers } from "../../Services/userService";
 
 function Register() {
   const navigate = useNavigate();
