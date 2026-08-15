@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:3001/users";
+const BASE_URL = "https://anvira-sports-ecommerce.onrender.com/users";
 
 // Register User
 export const registerUser = async (user) => {

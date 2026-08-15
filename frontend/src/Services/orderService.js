@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:3001/orders";
+const BASE_URL = "https://anvira-sports-ecommerce.onrender.com/orders";
 
 // Save Order
 export const saveOrder = async (order) => {
