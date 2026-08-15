@@ -24,142 +24,161 @@ import Wishlist from "../pages/Wishlist/Wishlist";
 import ManageAddress from "../pages/ManageAddress/ManageAddress";
 import ChangePassword from "../pages/ChangePassword/ChangePassword";
 
-
-
 // Order Success
 import OrderSuccess from "../pages/OrderSuccess/OrderSuccess";
 
-//             Admin                 //
+// ================= ADMIN =================
 
-import AdminLogin from "../admin/AdminLogin";
-import AdminLayout from "../admin/AdminLayout";
-import AdminDashboard from "../admin/AdminDashboard";
-import AdminProducts from "../admin/AdminProducts";
-import AdminOrders from "../admin/AdminOrders";
-import AdminUsers from "../admin/AdminUsers";
+import AdminLogin from "../Admin/AdminLogin";
+import AdminLayout from "../Admin/AdminLayout";
+import AdminDashboard from "../Admin/AdminDashboard";
+import AdminProducts from "../Admin/AdminProducts";
+import AdminOrders from "../Admin/AdminOrders";
+import AdminUsers from "../Admin/AdminUsers";
 
-//   Admin can manage the  products //
-
-import AddProduct from "../admin/ProductManagement/AddProduct";
-import EditProduct from "../admin/ProductManagement/EditProduct";
+// Admin Product Management
+import AddProduct from "../Admin/ProductManagement/AddProduct";
+import EditProduct from "../Admin/ProductManagement/EditProduct";
 
 function AppRoutes() {
-
   return (
+    <Routes>
 
-  <Routes>
+      {/* ================= HOME ================= */}
 
-    {/* Home */}
-    <Route path="/" element={<Home />} />
+      <Route path="/" element={<Home />} />
 
-    {/* Authentication */}
-    <Route path="/login" element={<Login />} />
-    <Route path="/register" element={<Register />} />
+      {/* ================= AUTHENTICATION ================= */}
 
-    {/* Shopping */}
-    <Route path="/cart" element={<Cart />} />
-    <Route path="/product/:id" element={<ProductDetails />} />
-    {/* <Route path="/checkout" element={<Checkout />} /> */}
-    <Route path="/payment" element={<Payment />} />
+      <Route path="/login" element={<Login />} />
 
-    {/* Order Success */}
-    <Route
-      path="/order-success"
-      element={<OrderSuccess />}
-    />
+      <Route path="/register" element={<Register />} />
 
-    {/* Categories */}
-    <Route path="/gym" element={<Gym />} />
-    <Route path="/men" element={<Men />} />
-    <Route path="/women" element={<Women />} />
-    <Route path="/kids" element={<Kids />} />
-    <Route path="/indoor" element={<Indoor />} />
-    <Route path="/outdoor" element={<Outdoor />} />
+      {/* ================= SHOPPING ================= */}
 
-    {/* ================= ADMIN ================= */}
-
-    <Route
-      path="/admin-login"
-      element={<AdminLogin />}
-    />
-
-    <Route
-      path="/admin"
-      element={<AdminLayout />}
-    >
+      <Route path="/cart" element={<Cart />} />
 
       <Route
-        index
-        element={<AdminDashboard />}
+        path="/product/:id"
+        element={<ProductDetails />}
       />
+
+      {/* <Route path="/checkout" element={<Checkout />} /> */}
 
       <Route
-        path="products"
-        element={<AdminProducts />}
+        path="/payment"
+        element={<Payment />}
       />
+
+      {/* ================= ORDER SUCCESS ================= */}
 
       <Route
-        path="orders"
-        element={<AdminOrders />}
+        path="/order-success"
+        element={<OrderSuccess />}
       />
+
+      {/* ================= CATEGORIES ================= */}
+
+      <Route path="/gym" element={<Gym />} />
+
+      <Route path="/men" element={<Men />} />
+
+      <Route path="/women" element={<Women />} />
+
+      <Route path="/kids" element={<Kids />} />
+
+      <Route path="/indoor" element={<Indoor />} />
+
+      <Route path="/outdoor" element={<Outdoor />} />
+
+      {/* ================= ADMIN LOGIN ================= */}
 
       <Route
-        path="users"
-        element={<AdminUsers />}
+        path="/admin-login"
+        element={<AdminLogin />}
       />
 
-    </Route>
-
-    {/* ================= PROFILE ================= */}
-
-    <Route
-      path="/profile"
-      element={<Profile />}
-    >
+      {/* ================= ADMIN ================= */}
 
       <Route
-        index
-        element={<MyProfile />}
-      />
+        path="/admin"
+        element={<AdminLayout />}
+      >
+
+        {/* Admin Dashboard */}
+        <Route
+          index
+          element={<AdminDashboard />}
+        />
+
+        {/* Admin Products */}
+        <Route
+          path="products"
+          element={<AdminProducts />}
+        />
+
+        {/* Admin Orders */}
+        <Route
+          path="orders"
+          element={<AdminOrders />}
+        />
+
+        {/* Admin Users */}
+        <Route
+          path="users"
+          element={<AdminUsers />}
+        />
+
+        {/* Add Product */}
+        <Route
+          path="add-product"
+          element={<AddProduct />}
+        />
+
+        {/* Edit Product */}
+        <Route
+          path="edit-product/:id"
+          element={<EditProduct />}
+        />
+
+      </Route>
+
+      {/* ================= PROFILE ================= */}
 
       <Route
-        path="orders"
-        element={<MyOrders />}
-      />
-
-      <Route
-        path="wishlist"
-        element={<Wishlist insideProfile={true} />}
-      />
-
-      <Route
-        path="address"
-        element={<ManageAddress />}
-      />
-
-      <Route
-        path="password"
-        element={<ChangePassword />}
-      />
-
-       {/* ================= Admin can manages the products  ================= */}
-
-       <Route
-         path="add-product"
-         element={<AddProduct />}
-      />
+        path="/profile"
+        element={<Profile />}
+      >
 
         <Route
-        path="edit-product/:id"
-        element={<EditProduct />}
-       />
+          index
+          element={<MyProfile />}
+        />
 
-    </Route>
+        <Route
+          path="orders"
+          element={<MyOrders />}
+        />
 
-  </Routes>
+        <Route
+          path="wishlist"
+          element={<Wishlist insideProfile={true} />}
+        />
 
-);
+        <Route
+          path="address"
+          element={<ManageAddress />}
+        />
 
+        <Route
+          path="password"
+          element={<ChangePassword />}
+        />
+
+      </Route>
+
+    </Routes>
+  );
 }
 
 export default AppRoutes;
