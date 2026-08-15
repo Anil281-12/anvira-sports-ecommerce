@@ -1,0 +1,696 @@
+/* =========================================
+   MY ORDERS PAGE
+========================================= */
+
+.my-orders-page {
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+}
+
+
+/* =========================================
+   PAGE HEADING
+========================================= */
+
+.my-orders-heading {
+
+    margin-bottom: 24px;
+
+}
+
+
+.my-orders-heading h1 {
+
+    margin: 0;
+
+    color: #222;
+
+    font-size: 32px;
+
+    font-weight: 700;
+
+}
+
+
+.my-orders-heading p {
+
+    margin: 7px 0 0;
+
+    color: #777;
+
+    font-size: 14px;
+
+}
+
+
+/* =========================================
+   ORDER CARD
+========================================= */
+
+.my-order-card {
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    background: #fff;
+
+    border: 1px solid #e5e5e5;
+
+    border-radius: 12px;
+
+    margin-bottom: 22px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 3px 12px rgba(0, 0, 0, 0.06);
+
+}
+
+
+/* =========================================
+   ORDER HEADER
+========================================= */
+
+.my-order-header {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 35px;
+
+    padding: 20px 24px;
+
+    background: #fafafa;
+
+    border-bottom: 1px solid #e8e8e8;
+
+}
+
+
+/* =========================================
+   ORDER NUMBER
+========================================= */
+
+.my-order-number {
+
+    min-width: 90px;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+.my-order-number span {
+
+    color: #777;
+
+    font-size: 12px;
+
+}
+
+
+.my-order-number strong {
+
+    margin-top: 3px;
+
+    color: #222;
+
+    font-size: 18px;
+
+}
+
+
+/* =========================================
+   ORDER INFORMATION
+========================================= */
+
+.my-order-info {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 4px;
+
+    flex: 1;
+
+}
+
+
+.my-order-info span {
+
+    color: #888;
+
+    font-size: 12px;
+
+}
+
+
+.my-order-info strong {
+
+    color: #444;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+}
+
+
+/* =========================================
+   DELIVERY DATE
+========================================= */
+
+.delivery-date {
+
+    color: #188038 !important;
+
+}
+
+
+/* =========================================
+   TOTAL
+========================================= */
+
+.my-order-total {
+
+    min-width: 90px;
+
+    text-align: right;
+
+    color: #ff6600;
+
+    font-size: 23px;
+
+    font-weight: 700;
+
+}
+
+
+/* =========================================
+   STATUS
+========================================= */
+
+.my-order-status-row {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 13px 24px;
+
+    border-bottom: 1px solid #eeeeee;
+
+}
+
+
+.my-order-status-label {
+
+    color: #555;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+}
+
+
+.my-order-status {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    color: #16833b;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+}
+
+
+.status-circle {
+
+    width: 18px;
+
+    height: 18px;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #16833b;
+
+    color: white;
+
+    font-size: 11px;
+
+}
+
+
+/* =========================================
+   PRODUCTS
+========================================= */
+
+.my-order-products {
+
+    padding: 0 24px;
+
+}
+
+
+/* =========================================
+   PRODUCT
+========================================= */
+
+.my-order-product {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 22px;
+
+    min-height: 150px;
+
+    padding: 20px 0;
+
+    border-bottom: 1px solid #eeeeee;
+
+}
+
+
+/* =========================================
+   PRODUCT IMAGE CONTAINER
+========================================= */
+
+.my-order-product-image {
+
+    width: 120px;
+
+    height: 120px;
+
+    min-width: 120px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #fff;
+
+    border: 1px solid #e5e5e5;
+
+    border-radius: 9px;
+
+    overflow: hidden;
+
+}
+
+
+/* =========================================
+   PRODUCT IMAGE
+
+   IMPORTANT:
+   Fixed width/height prevents huge images.
+========================================= */
+
+.my-order-product-image img {
+
+    width: 105px;
+
+    height: 105px;
+
+    max-width: 105px;
+
+    max-height: 105px;
+
+    object-fit: contain;
+
+    display: block;
+
+}
+
+
+/* =========================================
+   PRODUCT DETAILS
+========================================= */
+
+.my-order-product-info {
+
+    flex: 1;
+
+}
+
+
+.my-order-product-info h2 {
+
+    margin: 0 0 9px;
+
+    color: #ff6600;
+
+    font-size: 20px;
+
+    font-weight: 650;
+
+}
+
+
+.my-order-product-info p {
+
+    margin: 5px 0;
+
+    color: #555;
+
+    font-size: 14px;
+
+    line-height: 1.4;
+
+}
+
+
+.my-order-product-info strong {
+
+    color: #333;
+
+}
+
+
+/* =========================================
+   PRODUCT PRICE
+========================================= */
+
+.my-order-product-price {
+
+    min-width: 100px;
+
+    text-align: right;
+
+    color: #222;
+
+    font-size: 19px;
+
+    font-weight: 700;
+
+}
+
+
+/* =========================================
+   ORDER FOOTER
+========================================= */
+
+.my-order-footer {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 16px 24px;
+
+    background: #fff;
+
+}
+
+
+/* =========================================
+   ORDER CONFIRMED
+========================================= */
+
+.order-confirmed {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 7px;
+
+    color: #16833b;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+}
+
+
+.order-confirmed span {
+
+    width: 19px;
+
+    height: 19px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #16833b;
+
+    color: white;
+
+    font-size: 11px;
+
+}
+
+
+/* =========================================
+   TRACK BUTTON
+========================================= */
+
+.my-order-track-button {
+
+    border: none;
+
+    background: #ff6600;
+
+    color: white;
+
+    padding: 10px 22px;
+
+    border-radius: 7px;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+}
+
+
+.my-order-track-button:hover {
+
+    background: #e65c00;
+
+}
+
+
+/* =========================================
+   EMPTY ORDERS
+========================================= */
+
+.my-orders-empty {
+
+    padding: 70px 20px;
+
+    text-align: center;
+
+    background: white;
+
+    border: 1px solid #e5e5e5;
+
+    border-radius: 12px;
+
+}
+
+
+.my-orders-empty-icon {
+
+    font-size: 45px;
+
+    margin-bottom: 12px;
+
+}
+
+
+.my-orders-empty h2 {
+
+    margin: 0 0 8px;
+
+    color: #333;
+
+    font-size: 23px;
+
+}
+
+
+.my-orders-empty p {
+
+    margin: 0;
+
+    color: #888;
+
+    font-size: 14px;
+
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1000px) {
+
+    .my-order-header {
+
+        flex-wrap: wrap;
+
+        gap: 20px;
+
+    }
+
+
+    .my-order-info {
+
+        min-width: 160px;
+
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 650px) {
+
+    .my-orders-heading h1 {
+
+        font-size: 27px;
+
+    }
+
+
+    .my-order-header {
+
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 16px;
+
+        padding: 18px;
+
+    }
+
+
+    .my-order-total {
+
+        text-align: left;
+
+    }
+
+
+    .my-order-status-row {
+
+        padding: 12px 18px;
+
+    }
+
+
+    .my-order-products {
+
+        padding: 0 18px;
+
+    }
+
+
+    .my-order-product {
+
+        align-items: flex-start;
+
+        gap: 15px;
+
+    }
+
+
+    .my-order-product-image {
+
+        width: 90px;
+
+        height: 90px;
+
+        min-width: 90px;
+
+    }
+
+
+    .my-order-product-image img {
+
+        width: 75px;
+
+        height: 75px;
+
+        max-width: 75px;
+
+        max-height: 75px;
+
+    }
+
+
+    .my-order-product-info h2 {
+
+        font-size: 17px;
+
+    }
+
+
+    .my-order-product-info p {
+
+        font-size: 13px;
+
+    }
+
+
+    .my-order-product-price {
+
+        min-width: auto;
+
+        font-size: 17px;
+
+    }
+
+
+    .my-order-footer {
+
+        padding: 14px 18px;
+
+    }
+
+}

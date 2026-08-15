@@ -1,0 +1,1791 @@
+{
+  "users": [
+    {
+      "name": "SaiAnilKumar Kotla",
+      "email": "kotlasaianilkumar85@gmail.com",
+      "mobile": "6305837464",
+      "dob": "2005-06-03",
+      "password": "Anil_281",
+      "photo": "",
+      "id": "EnWq4aak5-g"
+    },
+    {
+      "name": "vamshi",
+      "email": "vamshi@gmail.com",
+      "mobile": "9876543210",
+      "dob": "2026-08-04",
+      "password": "vamshi",
+      "photo": "",
+      "id": "wfh0vAg4Kb4"
+    }
+  ],
+  "products": [
+    {
+      "id": "101",
+      "name": "Adjustable Dumbbells",
+      "category": "Gym",
+      "brand": "PowerMax",
+      "image": "https://rukminim2.flixcart.com/image/480/640/xif0q/dumbbell/s/c/c/fit-2kg-2-pvc-dumbbell-set-1-pair-of-dumbbells-best-for-home-original-imahn8gvjytkxmyr.jpeg?q=90",
+      "rating": 4.8,
+      "reviews": 215,
+      "quantity": 25,
+      "description": "Premium adjustable dumbbells for strength training. Ideal for home and professional gym workouts.",
+      "optionLabel": "Weight",
+      "price": 2499,
+      "options": [
+        {
+          "value": "5 kg",
+          "extraPrice": 0
+        },
+        {
+          "value": "10 kg",
+          "extraPrice": 500
+        },
+        {
+          "value": "15 kg",
+          "extraPrice": 1000
+        },
+        {
+          "value": "20 kg",
+          "extraPrice": 1500
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "name": "Olympic Barbell",
+      "category": "Gym",
+      "brand": "Bullrock",
+      "image": "https://aperformance.co.uk/wp-content/uploads/2022/05/Apex-OLYMPIC-Chrome-Bar-1-1024x1024.jpeg",
+      "rating": 4.9,
+      "reviews": 182,
+      "quantity": 15,
+      "description": "Heavy-duty Olympic chrome barbell designed for professional weight training.",
+      "optionLabel": "Weight",
+      "price": 3999,
+      "options": [
+        {
+          "value": "5 kg",
+          "extraPrice": 0
+        },
+        {
+          "value": "10 kg",
+          "extraPrice": 500
+        },
+        {
+          "value": "15 kg",
+          "extraPrice": 1000
+        },
+        {
+          "value": "20 kg",
+          "extraPrice": 2000
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "name": "Kettlebell",
+      "category": "Gym",
+      "brand": "Strauss",
+      "image": "https://contents.mediadecathlon.com/p2900045/6e4c4eff9d86d8b5ab45252f7c6e9f0d/p2900045.jpg",
+      "rating": 4.7,
+      "reviews": 146,
+      "quantity": 20,
+      "description": "Cast iron kettlebell with ergonomic handle for strength and endurance training.",
+      "optionLabel": "Weight",
+      "price": 1299,
+      "options": [
+        {
+          "value": "4 kg",
+          "extraPrice": 0
+        },
+        {
+          "value": "6 kg",
+          "extraPrice": 300
+        },
+        {
+          "value": "8 kg",
+          "extraPrice": 600
+        },
+        {
+          "value": "10 kg",
+          "extraPrice": 900
+        },
+        {
+          "value": "12 kg",
+          "extraPrice": 1200
+        },
+        {
+          "value": "16 kg",
+          "extraPrice": 1800
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "name": "Weight Plates",
+      "category": "Gym",
+      "brand": "Bullrock",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLqW93VdX3XXGPw6YWXTL2W8bFrD-WsDnUPXWv3uiMHQ&s=10",
+      "rating": 4.8,
+      "reviews": 171,
+      "quantity": 30,
+      "description": "Rubber-coated weight plates suitable for home and commercial gym training.",
+      "optionLabel": "Plate Weight",
+      "price": 500,
+      "options": [
+        {
+          "value": "0.5 kg",
+          "extraPrice": 0
+        },
+        {
+          "value": "1.25 kg",
+          "extraPrice": 250
+        },
+        {
+          "value": "2.5 kg",
+          "extraPrice": 500
+        },
+        {
+          "value": "5 kg",
+          "extraPrice": 1000
+        },
+        {
+          "value": "10 kg",
+          "extraPrice": 2000
+        },
+        {
+          "value": "12.5 kg",
+          "extraPrice": 2500
+        },
+        {
+          "value": "15 kg",
+          "extraPrice": 3000
+        },
+        {
+          "value": "20 kg",
+          "extraPrice": 4000
+        },
+        {
+          "value": "25 kg",
+          "extraPrice": 5000
+        },
+        {
+          "value": "Complete Set",
+          "extraPrice": 23000
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "name": "Olympic Curl Bar",
+      "category": "Gym",
+      "brand": "Bullrock",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAt76NDrNZuk2IKk2uLNKBP0BxbqPxzU3YqrfEvadqow&s=10",
+      "rating": 4.9,
+      "reviews": 182,
+      "quantity": 15,
+      "description": "Heavy-duty Olympic EZ curl bar designed for biceps and triceps workouts.",
+      "optionLabel": "Weight",
+      "price": 3999,
+      "options": [
+        {
+          "value": "5 kg",
+          "extraPrice": 0
+        },
+        {
+          "value": "10 kg",
+          "extraPrice": 500
+        },
+        {
+          "value": "15 kg",
+          "extraPrice": 1000
+        },
+        {
+          "value": "20 kg",
+          "extraPrice": 2000
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "name": "Adjustable Bench",
+      "category": "Gym",
+      "brand": "PowerMax",
+      "image": "https://energiefitness.in/cdn/shop/files/Best_Flat_Incline_Bench_BX-037.jpg?v=1770704058&width=1946",
+      "rating": 4.9,
+      "reviews": 94,
+      "quantity": 12,
+      "description": "Multi-position adjustable workout bench suitable for strength training.",
+      "optionLabel": "Color",
+      "price": 6999,
+      "options": [
+        {
+          "value": "Black",
+          "extraPrice": 0
+        },
+        {
+          "value": "Red",
+          "extraPrice": 500
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "name": "Treadmill",
+      "category": "Gym",
+      "brand": "PowerMax",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQMh4Mn4Qnw390ZUulopLdf6tjY6r5kBc4f_otEEzfMnz-azAZmwgXnDkDwCrJ2GTEoZC44c88fpIDtLv8urIBNJX8NiAjqnyKOn9Y1qnSXdzmU7xvs-bF_Aw&usqp=CAc",
+      "rating": 4.8,
+      "reviews": 88,
+      "quantity": 8,
+      "description": "Motorized treadmill with digital display and multiple workout modes for home fitness.",
+      "optionLabel": "Motor Power",
+      "price": 42999,
+      "options": [
+        {
+          "value": "2 HP",
+          "extraPrice": 0
+        },
+        {
+          "value": "2.5 HP",
+          "extraPrice": 5000
+        },
+        {
+          "value": "3 HP",
+          "extraPrice": 10000
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "name": "Exercise Bike",
+      "category": "Gym",
+      "brand": "Lifeline",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKMCy5j4QFeuFc6B0Hg2YTKRfd04_tXImrZa07sCykw&s=10",
+      "rating": 4.7,
+      "reviews": 79,
+      "quantity": 10,
+      "description": "Indoor exercise bike with adjustable resistance for effective cardio workouts.",
+      "optionLabel": "Color",
+      "price": 18999,
+      "options": [
+        {
+          "value": "Black",
+          "extraPrice": 0
+        },
+        {
+          "value": "Grey",
+          "extraPrice": 500
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "name": "Bicep Curl Machine",
+      "category": "Gym",
+      "brand": "Jerai Fitness",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2qCGARdidK4uhu9NgPCDeocEwykE9XQRqZ2l00KGv6Q&s=10",
+      "rating": 4.8,
+      "reviews": 67,
+      "quantity": 8,
+      "description": "Professional bicep curl machine designed for targeted arm strength training.",
+      "optionLabel": "Resistance",
+      "price": 24999,
+      "options": [
+        {
+          "value": "Level 1",
+          "extraPrice": 0
+        },
+        {
+          "value": "Level 2",
+          "extraPrice": 1000
+        },
+        {
+          "value": "Level 3",
+          "extraPrice": 2000
+        },
+        {
+          "value": "Level 4",
+          "extraPrice": 3000
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "name": "Elliptical Trainer",
+      "category": "Gym",
+      "brand": "PowerMax",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrgn5RDWLHZ9VY5GuS89cJKW5o4PpWjjA0lSSmyREwpw&s=10",
+      "rating": 4.8,
+      "reviews": 73,
+      "quantity": 6,
+      "description": "Low-impact elliptical trainer with adjustable resistance for full-body cardio workouts.",
+      "optionLabel": "Resistance",
+      "price": 28999,
+      "options": [
+        {
+          "value": "Level 1",
+          "extraPrice": 0
+        },
+        {
+          "value": "Level 2",
+          "extraPrice": 1500
+        },
+        {
+          "value": "Level 3",
+          "extraPrice": 3000
+        },
+        {
+          "value": "Level 4",
+          "extraPrice": 4500
+        }
+      ]
+    },
+    {
+      "id": "203",
+      "name": "Men's Sports T-Shirt",
+      "category": "Men",
+      "brand": "Nike",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnh4vnMm23I0_fz7ou9CCagI9rJK6LaXXm7mL4Q5x8lg&s=10",
+      "rating": 4.6,
+      "reviews": 185,
+      "quantity": 20,
+      "description": "Premium polyester sports t-shirt designed for comfort and performance.",
+      "optionLabel": "Size",
+      "price": 499,
+      "options": [
+        {
+          "value": "S",
+          "extraPrice": 0
+        },
+        {
+          "value": "M",
+          "extraPrice": 50
+        },
+        {
+          "value": "L",
+          "extraPrice": 100
+        },
+        {
+          "value": "XL",
+          "extraPrice": 150
+        },
+        {
+          "value": "XXL",
+          "extraPrice": 200
+        }
+      ]
+    },
+    {
+      "id": "204",
+      "name": "Full Sleeve Sports T-Shirt",
+      "category": "Men",
+      "brand": "Adidas",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb13ork4gz_6_TshpdQTyn9UdlQNo94jjeUwuoLzFTvw&s=10",
+      "rating": 4.7,
+      "reviews": 148,
+      "quantity": 20,
+      "description": "Comfortable full sleeve sports t-shirt suitable for workouts and outdoor activities.",
+      "optionLabel": "Size",
+      "price": 649,
+      "options": [
+        {
+          "value": "S",
+          "extraPrice": 0
+        },
+        {
+          "value": "M",
+          "extraPrice": 50
+        },
+        {
+          "value": "L",
+          "extraPrice": 100
+        },
+        {
+          "value": "XL",
+          "extraPrice": 150
+        },
+        {
+          "value": "XXL",
+          "extraPrice": 200
+        }
+      ]
+    },
+    {
+      "id": "205",
+      "name": "Sleeveless Training T-Shirt",
+      "category": "Men",
+      "brand": "Puma",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCEDnhPa3fzL-D6aXDq42KxWe09D4j5wzOb4G1NmyImg&s=10",
+      "rating": 4.5,
+      "reviews": 112,
+      "quantity": 20,
+      "description": "Lightweight sleeveless gym t-shirt for training and fitness sessions.",
+      "optionLabel": "Size",
+      "price": 399,
+      "options": [
+        {
+          "value": "S",
+          "extraPrice": 0
+        },
+        {
+          "value": "M",
+          "extraPrice": 50
+        },
+        {
+          "value": "L",
+          "extraPrice": 100
+        },
+        {
+          "value": "XL",
+          "extraPrice": 150
+        },
+        {
+          "value": "XXL",
+          "extraPrice": 200
+        }
+      ]
+    },
+    {
+      "id": "206",
+      "name": "Sleeveless Performance Vest",
+      "category": "Men",
+      "brand": "Under Armour",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq6kTPvJxVgQz5ylslMtt9YKEDxD3yDDA_8ZBsExYemA&s=10",
+      "rating": 4.4,
+      "reviews": 95,
+      "quantity": 20,
+      "description": "Breathable performance vest designed for intense gym workouts.",
+      "optionLabel": "Size",
+      "price": 429,
+      "options": [
+        {
+          "value": "S",
+          "extraPrice": 0
+        },
+        {
+          "value": "M",
+          "extraPrice": 50
+        },
+        {
+          "value": "L",
+          "extraPrice": 100
+        },
+        {
+          "value": "XL",
+          "extraPrice": 150
+        },
+        {
+          "value": "XXL",
+          "extraPrice": 200
+        }
+      ]
+    },
+    {
+      "id": "207",
+      "name": "Track Pant Black",
+      "category": "Men",
+      "brand": "Nike",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdI8t20RmXM8LwgdiE6BaQQMVwtGt_4f_E0-1fiQQ6XA&s=10",
+      "rating": 4.7,
+      "reviews": 238,
+      "quantity": 20,
+      "description": "Stretchable black track pants designed for workouts, running and daily sports activities.",
+      "optionLabel": "Size",
+      "price": 799,
+      "options": [
+        {
+          "value": "S",
+          "extraPrice": 0
+        },
+        {
+          "value": "M",
+          "extraPrice": 50
+        },
+        {
+          "value": "L",
+          "extraPrice": 100
+        },
+        {
+          "value": "XL",
+          "extraPrice": 150
+        },
+        {
+          "value": "XXL",
+          "extraPrice": 200
+        }
+      ]
+    },
+    {
+      "id": "208",
+      "name": "Track Pant White",
+      "category": "Men",
+      "brand": "Adidas",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST-vdduJvlzMNv_UCiYP9gKJhL4ehxxaLLFX5VFVhWUg&s=10",
+      "rating": 4.6,
+      "reviews": 194,
+      "quantity": 20,
+      "description": "Premium white athletic track pants offering superior comfort and flexibility.",
+      "optionLabel": "Size",
+      "price": 849,
+      "options": [
+        {
+          "value": "S",
+          "extraPrice": 0
+        },
+        {
+          "value": "M",
+          "extraPrice": 50
+        },
+        {
+          "value": "L",
+          "extraPrice": 100
+        },
+        {
+          "value": "XL",
+          "extraPrice": 150
+        },
+        {
+          "value": "XXL",
+          "extraPrice": 200
+        }
+      ]
+    },
+    {
+      "id": "209",
+      "name": "Football Shoes",
+      "category": "Men",
+      "brand": "Nike",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Sh-axJFOgj3Xk4gAx2euYY-tCFos_Rp5NfBfHFb8ww&s=10",
+      "rating": 4.8,
+      "reviews": 462,
+      "quantity": 20,
+      "description": "Professional football shoes with excellent grip, durability and comfort for all playing surfaces.",
+      "optionLabel": "UK Size",
+      "price": 1799,
+      "options": [
+        {
+          "value": "7",
+          "extraPrice": 0
+        },
+        {
+          "value": "8",
+          "extraPrice": 200
+        },
+        {
+          "value": "9",
+          "extraPrice": 400
+        },
+        {
+          "value": "10",
+          "extraPrice": 600
+        },
+        {
+          "value": "11",
+          "extraPrice": 800
+        }
+      ]
+    },
+    {
+      "id": "210",
+      "name": "Running Shoes",
+      "category": "Men",
+      "brand": "Puma",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYr1-V3Zd7mKNLwPtlNCItPRsksxVmA6YAYlMEM9k9OQ&s=10",
+      "rating": 4.7,
+      "reviews": 327,
+      "quantity": 20,
+      "description": "Lightweight running shoes with cushioned sole for enhanced comfort and everyday performance.",
+      "optionLabel": "UK Size",
+      "price": 1599,
+      "options": [
+        {
+          "value": "7",
+          "extraPrice": 0
+        },
+        {
+          "value": "8",
+          "extraPrice": 200
+        },
+        {
+          "value": "9",
+          "extraPrice": 400
+        },
+        {
+          "value": "10",
+          "extraPrice": 600
+        },
+        {
+          "value": "11",
+          "extraPrice": 800
+        }
+      ]
+    },
+    {
+      "id": "301",
+      "name": "Women's Sports T-Shirt",
+      "category": "Women",
+      "brand": "Nike",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoHIvI2yV37oXgBt5CJ97bsGnq7CTmSd9kiBzZEWbi5w&s=10",
+      "rating": 4.8,
+      "reviews": 215,
+      "quantity": 20,
+      "description": "Breathable sports t-shirt designed for workouts, running and training.",
+      "optionLabel": "Size",
+      "price": 599,
+      "options": [
+        {
+          "value": "S",
+          "extraPrice": 0
+        },
+        {
+          "value": "M",
+          "extraPrice": 50
+        },
+        {
+          "value": "L",
+          "extraPrice": 100
+        },
+        {
+          "value": "XL",
+          "extraPrice": 150
+        },
+        {
+          "value": "XXL",
+          "extraPrice": 200
+        }
+      ]
+    },
+    {
+      "id": "302",
+      "name": "Women's Training T-Shirt",
+      "category": "Women",
+      "brand": "Adidas",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxmHjPBS2x4-GSNzwkJtYdMRX-HcD9V3txbfOWzh9NOw&s=10",
+      "rating": 4.7,
+      "reviews": 184,
+      "quantity": 18,
+      "description": "Comfortable performance t-shirt with moisture-wicking fabric.",
+      "optionLabel": "Size",
+      "price": 649,
+      "options": [
+        {
+          "value": "S",
+          "extraPrice": 0
+        },
+        {
+          "value": "M",
+          "extraPrice": 50
+        },
+        {
+          "value": "L",
+          "extraPrice": 100
+        },
+        {
+          "value": "XL",
+          "extraPrice": 150
+        },
+        {
+          "value": "XXL",
+          "extraPrice": 200
+        }
+      ]
+    },
+    {
+      "id": "303",
+      "name": "Women's Track Pants",
+      "category": "Women",
+      "brand": "Puma",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyudt2HB9up3j9YSQbllfbZLVQ-sw6oUGLzX-yPchy9A&s=10",
+      "rating": 4.8,
+      "reviews": 152,
+      "quantity": 15,
+      "description": "Stretchable athletic track pants suitable for gym workouts, jogging and fitness activities.",
+      "optionLabel": "Size",
+      "price": 899,
+      "options": [
+        {
+          "value": "S",
+          "extraPrice": 0
+        },
+        {
+          "value": "M",
+          "extraPrice": 50
+        },
+        {
+          "value": "L",
+          "extraPrice": 100
+        },
+        {
+          "value": "XL",
+          "extraPrice": 150
+        },
+        {
+          "value": "XXL",
+          "extraPrice": 200
+        }
+      ]
+    },
+    {
+      "id": "305",
+      "name": "Women's Sports Shoes",
+      "category": "Women",
+      "brand": "Nike",
+      "image": "https://relaxofootwear.com/cdn/shop/files/SL-244-LPFU-5.jpg?v=1765262994&width=1445",
+      "rating": 4.9,
+      "reviews": 321,
+      "quantity": 10,
+      "description": "Premium sports shoes designed for running, training and everyday comfort.",
+      "optionLabel": "UK Size",
+      "price": 2099,
+      "options": [
+        {
+          "value": "7",
+          "extraPrice": 0
+        },
+        {
+          "value": "8",
+          "extraPrice": 200
+        },
+        {
+          "value": "9",
+          "extraPrice": 400
+        },
+        {
+          "value": "10",
+          "extraPrice": 600
+        },
+        {
+          "value": "11",
+          "extraPrice": 800
+        }
+      ]
+    },
+    {
+      "id": "401",
+      "name": "Kids Sports T-Shirt",
+      "category": "Kids",
+      "brand": "Nike",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2024/11/467472364/JB/FB/VP/65589758/kids-sports-jersey.jpg",
+      "rating": 4.8,
+      "reviews": 95,
+      "quantity": 30,
+      "description": "Comfortable and breathable sports T-shirt for kids.",
+      "optionLabel": "Size",
+      "price": 699,
+      "options": [
+        {
+          "value": "XS",
+          "extraPrice": 0
+        },
+        {
+          "value": "S",
+          "extraPrice": 50
+        },
+        {
+          "value": "M",
+          "extraPrice": 100
+        },
+        {
+          "value": "L",
+          "extraPrice": 150
+        }
+      ]
+    },
+    {
+      "id": "402",
+      "name": "Kids Track Pants",
+      "category": "Kids",
+      "brand": "Adidas",
+      "image": "https://media.finishline.com/i/finishline/IM4973_621_M1?bg=rgb%28237%2C237%29&fmt=auto&w=1600&h=1600",
+      "rating": 4.7,
+      "reviews": 82,
+      "quantity": 25,
+      "description": "Flexible and lightweight track pants designed for active kids, offering all-day comfort.",
+      "optionLabel": "Size",
+      "price": 899,
+      "options": [
+        {
+          "value": "XS",
+          "extraPrice": 0
+        },
+        {
+          "value": "S",
+          "extraPrice": 50
+        },
+        {
+          "value": "M",
+          "extraPrice": 100
+        },
+        {
+          "value": "L",
+          "extraPrice": 150
+        }
+      ]
+    },
+    {
+      "id": "403",
+      "name": "Kids Sports Shoes",
+      "category": "Kids",
+      "brand": "Puma",
+      "image": "https://annachy-prod-assets.annachy.com/pims/products-v1/0288775BLA_2-image1_v1784545687100.webp",
+      "rating": 4.9,
+      "reviews": 124,
+      "quantity": 20,
+      "description": "Durable sports shoes designed for kids' daily activities.",
+      "optionLabel": "Shoe Size",
+      "price": 1799,
+      "options": [
+        {
+          "value": "28",
+          "extraPrice": 0
+        },
+        {
+          "value": "30",
+          "extraPrice": 200
+        },
+        {
+          "value": "32",
+          "extraPrice": 400
+        },
+        {
+          "value": "34",
+          "extraPrice": 600
+        },
+        {
+          "value": "36",
+          "extraPrice": 800
+        }
+      ]
+    },
+    {
+      "id": "404",
+      "name": "Kids Cricket Bat",
+      "category": "Kids",
+      "brand": "SG",
+      "image": "https://contents.mediadecathlon.com/p2410172/ee4f05643d222f47f7e569bd6fedc4e0/p2410172.jpg",
+      "rating": 4.8,
+      "reviews": 76,
+      "quantity": 18,
+      "description": "Lightweight cricket bat suitable for young players.",
+      "optionLabel": "Bat Size",
+      "price": 999,
+      "options": [
+        {
+          "value": "Size 3",
+          "extraPrice": 0
+        },
+        {
+          "value": "Size 4",
+          "extraPrice": 200
+        },
+        {
+          "value": "Size 5",
+          "extraPrice": 400
+        },
+        {
+          "value": "Size 6",
+          "extraPrice": 600
+        }
+      ]
+    },
+    {
+      "id": "405",
+      "name": "Kids Football",
+      "category": "Kids",
+      "brand": "Nivia",
+      "image": "https://probadminton.in/cdn/shop/files/110-130-home-play-1-13-1-fb-4044bl-football-nivia-original-imah4mcd8qhnxqvv.webp?v=1766836152&width=1780",
+      "rating": 4.6,
+      "reviews": 68,
+      "quantity": 35,
+      "description": "Soft and durable football for kids' practice sessions.",
+      "optionLabel": "Size",
+      "price": 799,
+      "options": [
+        {
+          "value": "Size 3",
+          "extraPrice": 0
+        },
+        {
+          "value": "Size 4",
+          "extraPrice": 200
+        },
+        {
+          "value": "Size 5",
+          "extraPrice": 400
+        },
+        {
+          "value": "Size 6",
+          "extraPrice": 600
+        }
+      ]
+    },
+    {
+      "id": "406",
+      "name": "Kids Badminton Racket",
+      "category": "Kids",
+      "brand": "Yonex",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK9oybkYAL94bkbBScbWA911uFklbYwyBXnAyIUCjg7A&s",
+      "rating": 4.7,
+      "reviews": 59,
+      "quantity": 22,
+      "description": "Lightweight badminton racket designed for beginner kids.",
+      "optionLabel": "Grip Size",
+      "price": 899,
+      "options": [
+        {
+          "value": "Small",
+          "extraPrice": 0
+        },
+        {
+          "value": "Medium",
+          "extraPrice": 200
+        }
+      ]
+    },
+    {
+      "id": "407",
+      "name": "Kids Basketball",
+      "category": "Kids",
+      "brand": "Spalding",
+      "image": "https://img.magnific.com/free-photo/happy-kid-enjoying-his-gym-class_23-2149070779.jpg?semt=ais_test_b&w=740&q=80",
+      "rating": 4.7,
+      "reviews": 61,
+      "quantity": 20,
+      "description": "Premium rubber basketball suitable for indoor and outdoor play.",
+      "optionLabel": "Size",
+      "price": 899,
+      "options": [
+        {
+          "value": "3",
+          "extraPrice": 0
+        },
+        {
+          "value": "5",
+          "extraPrice": 200
+        }
+      ]
+    },
+    {
+      "id": "408",
+      "name": "Kids Cricket Helmet",
+      "category": "Kids",
+      "brand": "SG",
+      "image": "https://indiashopping.io/cdn/shop/files/decathlon-indore-sports-kit-navy-blue-kids-lightweight-beginner-cricket-helmet-ch-100-jr-44508354216224.png?v=1732942260",
+      "rating": 4.8,
+      "reviews": 43,
+      "quantity": 15,
+      "description": "Protective cricket helmet specially designed for kids.",
+      "optionLabel": "Size",
+      "price": 1499,
+      "options": [
+        {
+          "value": "Small",
+          "extraPrice": 0
+        },
+        {
+          "value": "Medium",
+          "extraPrice": 200
+        }
+      ]
+    },
+    {
+      "id": "409",
+      "name": "Girls Sports Dress Suit",
+      "category": "Kids",
+      "brand": "Decathlon",
+      "image": "https://m.media-amazon.com/images/I/51b0lvnlmjL._AC_UY1100_.jpg",
+      "rating": 4.7,
+      "reviews": 88,
+      "quantity": 40,
+      "description": "High-quality girls' sports suit made with breathable and stretchable fabric for maximum comfort.",
+      "optionLabel": "Size",
+      "price": 499,
+      "options": [
+        {
+          "value": "4-5 Years",
+          "extraPrice": 0
+        },
+        {
+          "value": "6-7 Years",
+          "extraPrice": 50
+        },
+        {
+          "value": "8-9 Years",
+          "extraPrice": 100
+        },
+        {
+          "value": "10-11 Years",
+          "extraPrice": 150
+        },
+        {
+          "value": "12-13 Years",
+          "extraPrice": 200
+        }
+      ]
+    },
+    {
+      "id": "410",
+      "name": "Boys Sports Dress Suit",
+      "category": "Kids",
+      "brand": "Decathlon",
+      "image": "https://5.imimg.com/data5/RB/LN/WF/SELLER-65772240/sports-tracksuit-500x500.jpg",
+      "rating": 4.7,
+      "reviews": 88,
+      "quantity": 40,
+      "description": "High-quality boys' sports suit made with breathable and stretchable fabric for maximum comfort.",
+      "optionLabel": "Size",
+      "price": 499,
+      "options": [
+        {
+          "value": "4-5 Years",
+          "extraPrice": 0
+        },
+        {
+          "value": "6-7 Years",
+          "extraPrice": 50
+        },
+        {
+          "value": "8-9 Years",
+          "extraPrice": 100
+        },
+        {
+          "value": "10-11 Years",
+          "extraPrice": 150
+        },
+        {
+          "value": "12-13 Years",
+          "extraPrice": 200
+        }
+      ]
+    },
+    {
+      "id": "411",
+      "name": "Kids Sports Kit",
+      "category": "Kids",
+      "brand": "Cosco",
+      "image": "https://m.media-amazon.com/images/I/81WBUgpDcFL._AC_UF894,1000_QL80_.jpg",
+      "rating": 4.9,
+      "reviews": 37,
+      "quantity": 12,
+      "description": "Complete sports kit including essential accessories for kids.",
+      "optionLabel": "Kit Size",
+      "price": 2499,
+      "options": [
+        {
+          "value": "Under 10",
+          "extraPrice": 0
+        },
+        {
+          "value": "Under 15",
+          "extraPrice": 500
+        }
+      ]
+    },
+    {
+      "id": "501",
+      "name": "Professional Chess Board",
+      "category": "Indoor",
+      "brand": "StonKraft",
+      "image": "https://cdn11.bigcommerce.com/s-5p6k1/images/stencil/1000x1318/products/4797/30174/chess-set-metal-large-poseidon-brass-silver-green-board-brass-pieces-view-1500x930__42521.1616960320.jpg?c=2",
+      "rating": 4.8,
+      "reviews": 124,
+      "quantity": 25,
+      "description": "Premium wooden chess board suitable for beginners, casual players and professionals.",
+      "optionLabel": "Board Size",
+      "price": 899,
+      "options": [
+        {
+          "value": "12 inch",
+          "extraPrice": 0
+        },
+        {
+          "value": "15 inch",
+          "extraPrice": 300
+        },
+        {
+          "value": "18 inch",
+          "extraPrice": 600
+        }
+      ]
+    },
+    {
+      "id": "502",
+      "name": "Wooden Carrom Board",
+      "category": "Indoor",
+      "brand": "Synco",
+      "image": "https://images.activefitnessstore.com/product-list/4112025010110/4112025010110-2.jpg",
+      "rating": 4.9,
+      "reviews": 98,
+      "quantity": 18,
+      "description": "Tournament-quality wooden carrom board with a smooth playing surface.",
+      "optionLabel": "Board Size",
+      "price": 2499,
+      "options": [
+        {
+          "value": "26 inch",
+          "extraPrice": 0
+        },
+        {
+          "value": "29 inch",
+          "extraPrice": 500
+        }
+      ]
+    },
+    {
+      "id": "503",
+      "name": "Table Tennis Racket",
+      "category": "Indoor",
+      "brand": "Stag",
+      "image": "https://m.media-amazon.com/images/I/81BL3DolP7L.jpg",
+      "rating": 4.7,
+      "reviews": 83,
+      "quantity": 35,
+      "description": "Lightweight table tennis racket with a comfortable grip for better control.",
+      "optionLabel": "Grip Type",
+      "price": 799,
+      "options": [
+        {
+          "value": "Flared",
+          "extraPrice": 0
+        },
+        {
+          "value": "Straight",
+          "extraPrice": 100
+        }
+      ]
+    },
+    {
+      "id": "504",
+      "name": "Table Tennis Balls",
+      "category": "Indoor",
+      "brand": "Butterfly",
+      "image": "https://m.media-amazon.com/images/I/71LFOHxfn9L.jpg",
+      "rating": 4.6,
+      "reviews": 71,
+      "quantity": 60,
+      "description": "High-quality 3-star table tennis balls with excellent bounce and durability.",
+      "optionLabel": "Pack",
+      "price": 299,
+      "options": [
+        {
+          "value": "3 Balls",
+          "extraPrice": 0
+        },
+        {
+          "value": "6 Balls",
+          "extraPrice": 200
+        },
+        {
+          "value": "12 Balls",
+          "extraPrice": 500
+        }
+      ]
+    },
+    {
+      "id": "505",
+      "name": "Ludo Board Game",
+      "category": "Indoor",
+      "brand": "Funskool",
+      "image": "https://i.etsystatic.com/27406183/r/il/9f47b7/3935621804/il_fullxfull.3935621804_kw0x.jpg",
+      "rating": 4.7,
+      "reviews": 52,
+      "quantity": 40,
+      "description": "Classic family board game for hours of fun and entertainment.",
+      "optionLabel": "Players",
+      "price": 399,
+      "options": [
+        {
+          "value": "2 Players",
+          "extraPrice": 0
+        },
+        {
+          "value": "4 Players",
+          "extraPrice": 100
+        }
+      ]
+    },
+    {
+      "id": "506",
+      "name": "Wooden Dart Board Set",
+      "category": "Indoor",
+      "brand": "Decathlon",
+      "image": "https://m.media-amazon.com/images/I/71t0ON27CwL._AC_UF894,1000_QL80_.jpg",
+      "rating": 4.8,
+      "reviews": 67,
+      "quantity": 20,
+      "description": "Professional dart board set with durable steel-tip darts.",
+      "optionLabel": "Diameter",
+      "price": 1299,
+      "options": [
+        {
+          "value": "15 inch",
+          "extraPrice": 0
+        },
+        {
+          "value": "18 inch",
+          "extraPrice": 400
+        }
+      ]
+    },
+    {
+      "id": "507",
+      "name": "Playing Cards",
+      "category": "Indoor",
+      "brand": "Bicycle",
+      "image": "https://store.theory11.com/cdn/shop/collections/27.jpg?v=1707413254&width=1200",
+      "rating": 4.6,
+      "reviews": 89,
+      "quantity": 80,
+      "description": "Premium waterproof playing cards for indoor games and entertainment.",
+      "optionLabel": "Pack",
+      "price": 199,
+      "options": [
+        {
+          "value": "Single",
+          "extraPrice": 0
+        },
+        {
+          "value": "Double",
+          "extraPrice": 150
+        }
+      ]
+    },
+    {
+      "id": "508",
+      "name": "Premium Cube Collection Set",
+      "category": "Indoor",
+      "brand": "MoYu",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfEVQD6r8aWGfh-VTQmQryWp9Dh-vfrVoDMD5spgfxZg&s=10",
+      "rating": 4.9,
+      "reviews": 187,
+      "quantity": 25,
+      "description": "Premium Cube Collection Set containing 2x2, 3x3, 4x4, 5x5, Mirror Cube, Pyraminx, Megaminx, Skewb, Square-1 and Pentagram Cube.",
+      "optionLabel": "Pack Size",
+      "price": 1699,
+      "options": [
+        {
+          "value": "1 Box",
+          "extraPrice": 0
+        },
+        {
+          "value": "2 Boxes",
+          "extraPrice": 59
+        },
+        {
+          "value": "3 Boxes",
+          "extraPrice": 78
+        }
+      ]
+    },
+    {
+      "id": "509",
+      "name": "International Business Board Game",
+      "category": "Indoor",
+      "brand": "Hasbro",
+      "image": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/NI_CATALOG/IMAGES/CIW/2026/3/24/f23ce21b-7cf4-4f7e-8137-cfc54536d91e_H63HQSM502.jpg",
+      "rating": 4.9,
+      "reviews": 45,
+      "quantity": 8,
+      "description": "Classic International Business board game that lets players buy, sell, trade and build their business empire.",
+      "optionLabel": "Edition",
+      "price": 899,
+      "options": [
+        {
+          "value": "Standard Edition",
+          "extraPrice": 0
+        },
+        {
+          "value": "Deluxe Edition",
+          "extraPrice": 300
+        }
+      ]
+    },
+    {
+      "id": "510",
+      "name": "Foosball Table",
+      "category": "Indoor",
+      "brand": "Best Choice Products",
+      "image": "https://bestchoiceproducts.com/cdn/shop/files/SKY8458LRG-1.jpg?v=1763154631&width=1946",
+      "rating": 4.9,
+      "reviews": 45,
+      "quantity": 8,
+      "description": "Professional foosball table built for indoor fun, tournaments and family entertainment.",
+      "optionLabel": "Table Size",
+      "price": 11999,
+      "options": [
+        {
+          "value": "4 Feet",
+          "extraPrice": 0
+        },
+        {
+          "value": "5 Feet",
+          "extraPrice": 3000
+        }
+      ]
+    },
+    {
+      "id": "601",
+      "name": "Cricket Bat",
+      "category": "Outdoor",
+      "brand": "REEBOOK",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTauppNBGKKBEt7hSq5nouQ6mJwToU1KuzLGrarPtr_Sg&s=10",
+      "rating": 4.8,
+      "reviews": 245,
+      "quantity": 20,
+      "description": "Premium English willow cricket bat designed for powerful strokes and long-lasting performance.",
+      "optionLabel": "Handle",
+      "price": 1499,
+      "options": [
+        {
+          "value": "Short Handle",
+          "extraPrice": 0
+        },
+        {
+          "value": "Long Handle",
+          "extraPrice": 200
+        }
+      ]
+    },
+    {
+      "id": "602",
+      "name": "Batting Helmet",
+      "category": "Outdoor",
+      "brand": "DSC",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUfgLc9n-07rVD20CMvCL7nf2941SSJOmWIhl3vaSpNw&s=10",
+      "rating": 4.7,
+      "reviews": 180,
+      "quantity": 30,
+      "description": "High-quality batting helmet with a strong face guard for maximum player safety.",
+      "optionLabel": "Size",
+      "price": 899,
+      "options": [
+        {
+          "value": "Small",
+          "extraPrice": 0
+        },
+        {
+          "value": "Medium",
+          "extraPrice": 100
+        },
+        {
+          "value": "Large",
+          "extraPrice": 200
+        }
+      ]
+    },
+    {
+      "id": "603",
+      "name": "Cricket Gloves",
+      "category": "Outdoor",
+      "brand": "SG",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP1aVBJ8BIEfA7PYUpS4kapayB5x586v4LwhaweAj_Gg&s=10",
+      "rating": 4.6,
+      "reviews": 120,
+      "quantity": 25,
+      "description": "Comfortable batting gloves with excellent grip and shock absorption.",
+      "optionLabel": "Size",
+      "price": 699,
+      "options": [
+        {
+          "value": "Youth",
+          "extraPrice": 0
+        },
+        {
+          "value": "Small",
+          "extraPrice": 100
+        },
+        {
+          "value": "Medium",
+          "extraPrice": 200
+        },
+        {
+          "value": "Large",
+          "extraPrice": 300
+        }
+      ]
+    },
+    {
+      "id": "604",
+      "name": "Cricket Pads",
+      "category": "Outdoor",
+      "brand": "DSC",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9-n2KrTwzxtXqxz9P0bk-SpxEzbvaSNFz11BV4jvEvg&s=10",
+      "rating": 4.7,
+      "reviews": 140,
+      "quantity": 15,
+      "description": "Lightweight cricket leg pads offering superior comfort and impact protection.",
+      "optionLabel": "Size",
+      "price": 899,
+      "options": [
+        {
+          "value": "Youth",
+          "extraPrice": 0
+        },
+        {
+          "value": "Small",
+          "extraPrice": 100
+        },
+        {
+          "value": "Medium",
+          "extraPrice": 200
+        },
+        {
+          "value": "Large",
+          "extraPrice": 300
+        }
+      ]
+    },
+    {
+      "id": "605",
+      "name": "Leather Cricket Ball",
+      "category": "Outdoor",
+      "brand": "Kookaburra",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_ol8TdLMpbzR-FfOGV1Wgk3oh2IGD_rPHGzWwB-P7XQ&s=10",
+      "rating": 4.5,
+      "reviews": 90,
+      "quantity": 50,
+      "description": "Premium leather cricket ball designed for professional matches and practice sessions.",
+      "optionLabel": "Color",
+      "price": 399,
+      "options": [
+        {
+          "value": "Red",
+          "extraPrice": 0
+        },
+        {
+          "value": "White",
+          "extraPrice": 50
+        },
+        {
+          "value": "Pink",
+          "extraPrice": 100
+        }
+      ]
+    },
+    {
+      "id": "606",
+      "name": "Baseball Bat",
+      "category": "Outdoor",
+      "brand": "Louisville Slugger",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdxKtdowEbNmRMSD0xr1lfz3csOBEdCs-bpLGrjCnOQA&s=10",
+      "rating": 4.6,
+      "reviews": 95,
+      "quantity": 20,
+      "description": "Professional baseball bat made from durable wood for excellent power and balance.",
+      "optionLabel": "Length",
+      "price": 799,
+      "options": [
+        {
+          "value": "30\"",
+          "extraPrice": 0
+        },
+        {
+          "value": "31\"",
+          "extraPrice": 100
+        },
+        {
+          "value": "32\"",
+          "extraPrice": 200
+        },
+        {
+          "value": "33\"",
+          "extraPrice": 300
+        },
+        {
+          "value": "34\"",
+          "extraPrice": 400
+        }
+      ]
+    },
+    {
+      "id": "607",
+      "name": "Baseball BatsMen Helmet",
+      "category": "Outdoor",
+      "brand": "Rawlings",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYkVqqqrNxkjpFTSffZvtzLI_2vmaLLeQD9_GYhLsACQ&s=10",
+      "rating": 4.4,
+      "reviews": 70,
+      "quantity": 18,
+      "description": "Protective baseball helmet with a comfortable fit and high-impact resistant shell.",
+      "optionLabel": "Size",
+      "price": 1299,
+      "options": [
+        {
+          "value": "Small",
+          "extraPrice": 0
+        },
+        {
+          "value": "Medium",
+          "extraPrice": 100
+        },
+        {
+          "value": "Large",
+          "extraPrice": 200
+        }
+      ]
+    },
+    {
+      "id": "608",
+      "name": "Baseball Face Protector",
+      "category": "Outdoor",
+      "brand": "Rawlings",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJF6qkHpdgqJ_brmjX-e65oDX5h8_4uFPwQrzZkqBk-Q&s=10",
+      "rating": 4.4,
+      "reviews": 70,
+      "quantity": 18,
+      "description": "Protective baseball Face Protector Helmet with a comfortable fit and high-impact resistant shell.",
+      "optionLabel": "Size",
+      "price": 1299,
+      "options": [
+        {
+          "value": "Small",
+          "extraPrice": 0
+        },
+        {
+          "value": "Medium",
+          "extraPrice": 100
+        },
+        {
+          "value": "Large",
+          "extraPrice": 200
+        }
+      ]
+    },
+    {
+      "id": "609",
+      "name": "Cricket Chest Protector",
+      "category": "Outdoor",
+      "brand": "Gray-Nicolls",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWz-0gldm-CVwXzePR-axlZeGMGPatnqm80vc7xx7nvQ&s=10",
+      "rating": 4.8,
+      "reviews": 92,
+      "quantity": 20,
+      "description": "Lightweight cricket chest protector with high-impact foam padding for maximum safety.",
+      "optionLabel": "Size",
+      "price": 799,
+      "options": [
+        {
+          "value": "Small",
+          "extraPrice": 0
+        },
+        {
+          "value": "Medium",
+          "extraPrice": 150
+        },
+        {
+          "value": "Large",
+          "extraPrice": 300
+        }
+      ]
+    },
+    {
+      "id": "610",
+      "name": "Body Protector",
+      "category": "Outdoor",
+      "brand": "GM",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx1ex6d4Ok31V7brIk5CpgoQbTZgXokOPx9YQuQDP5Qw&s=10",
+      "rating": 4.7,
+      "reviews": 74,
+      "quantity": 15,
+      "description": "Professional body protector designed to absorb impact while providing excellent comfort and flexibility.",
+      "optionLabel": "Size",
+      "price": 1199,
+      "options": [
+        {
+          "value": "Small",
+          "extraPrice": 0
+        },
+        {
+          "value": "Medium",
+          "extraPrice": 150
+        },
+        {
+          "value": "Large",
+          "extraPrice": 300
+        }
+      ]
+    },
+    {
+      "id": "611",
+      "name": "Baseball Leg Guard",
+      "category": "Outdoor",
+      "brand": "CHAMPRO",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDBPbSv0m7ZpmWfMqRyzeSZ63bL4VTuHgXVAj7PP37kA&s=10",
+      "rating": 4.8,
+      "reviews": 113,
+      "quantity": 18,
+      "description": "Premium cricket leg guards with lightweight construction and superior shock absorption.",
+      "optionLabel": "Size",
+      "price": 999,
+      "options": [
+        {
+          "value": "Small",
+          "extraPrice": 0
+        },
+        {
+          "value": "Medium",
+          "extraPrice": 150
+        },
+        {
+          "value": "Large",
+          "extraPrice": 300
+        }
+      ]
+    },
+    {
+      "id": "612",
+      "name": "Wicket Keeper Gloves",
+      "category": "Outdoor",
+      "brand": "SG",
+      "image": "https://mahavirsports.co.in/cdn/shop/files/Super-Club-1-6-scaled.webp?v=1755008031&width=1920",
+      "rating": 4.9,
+      "reviews": 156,
+      "quantity": 14,
+      "description": "Professional wicket keeper gloves with premium leather, excellent grip and cushioned palm protection.",
+      "optionLabel": "Size",
+      "price": 1399,
+      "options": [
+        {
+          "value": "Youth",
+          "extraPrice": 0
+        },
+        {
+          "value": "Adult",
+          "extraPrice": 300
+        },
+        {
+          "value": "Large",
+          "extraPrice": 300
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Gym"
+    },
+    {
+      "id": "2",
+      "name": "Men"
+    },
+    {
+      "id": "3",
+      "name": "Women"
+    },
+    {
+      "id": "4",
+      "name": "Kids"
+    },
+    {
+      "id": "5",
+      "name": "Indoor"
+    },
+    {
+      "id": "6",
+      "name": "Outdoor"
+    }
+  ],
+  "cart": [],
+  "wishlist": [],
+  "orders": [
+    {
+      "id": "uT_Va4bqzyM",
+      "userName": "SaiAnilKumar Kotla",
+      "userEmail": "kotlasaianilkumar85@gmail.com",
+      "items": [
+        {
+          "id": "101",
+          "name": "Adjustable Dumbbells",
+          "category": "Gym",
+          "brand": "PowerMax",
+          "image": "https://rukminim2.flixcart.com/image/480/640/xif0q/dumbbell/s/c/c/fit-2kg-2-pvc-dumbbell-set-1-pair-of-dumbbells-best-for-home-original-imahn8gvjytkxmyr.jpeg?q=90",
+          "rating": 4.8,
+          "reviews": 215,
+          "quantity": 1,
+          "description": "Premium adjustable dumbbells for strength training. Ideal for home and professional gym workouts.",
+          "optionLabel": "Weight",
+          "price": 2499,
+          "options": [
+            {
+              "value": "5 kg",
+              "extraPrice": 0
+            },
+            {
+              "value": "10 kg",
+              "extraPrice": 500
+            },
+            {
+              "value": "15 kg",
+              "extraPrice": 1000
+            },
+            {
+              "value": "20 kg",
+              "extraPrice": 1500
+            }
+          ],
+          "selectedOption": {
+            "value": "5 kg",
+            "extraPrice": 0
+          },
+          "totalPrice": 2499
+        },
+        {
+          "id": "102",
+          "name": "Olympic Barbell",
+          "category": "Gym",
+          "brand": "Bullrock",
+          "image": "https://aperformance.co.uk/wp-content/uploads/2022/05/Apex-OLYMPIC-Chrome-Bar-1-1024x1024.jpeg",
+          "rating": 4.9,
+          "reviews": 182,
+          "quantity": 1,
+          "description": "Heavy-duty Olympic chrome barbell designed for professional weight training.",
+          "optionLabel": "Weight",
+          "price": 4499,
+          "options": [
+            {
+              "value": "5 kg",
+              "extraPrice": 0
+            },
+            {
+              "value": "10 kg",
+              "extraPrice": 500
+            },
+            {
+              "value": "15 kg",
+              "extraPrice": 1000
+            },
+            {
+              "value": "20 kg",
+              "extraPrice": 2000
+            }
+          ],
+          "selectedOption": {
+            "value": "10 kg",
+            "extraPrice": 500
+          },
+          "totalPrice": 4499
+        }
+      ],
+      "address": {
+        "name": "SaiAnilKumar Kotla",
+        "mobile": "06305837464",
+        "pincode": "500085",
+        "state": "Telangana",
+        "city": "Tirumalagiri",
+        "address": "Kphb Colony"
+      },
+      "paymentMethod": "COD",
+      "orderDate": "8/4/2026",
+      "status": "Ordered",
+      "total": 6998
+    }
+    
+  ],
+  "reviews": [],
+  "payments": [],
+  "contact": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}

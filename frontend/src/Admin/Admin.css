@@ -1,0 +1,824 @@
+/* =========================================================
+   ANVIRA SPORTS - ADMIN PANEL
+   Complete Admin CSS
+========================================================= */
+
+
+/* =========================================================
+   GLOBAL RESET
+========================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* =========================================================
+   BODY
+========================================================= */
+
+body {
+    margin: 0;
+    background: #f5f7fa;
+}
+
+
+/* =========================================================
+   ADMIN LOGIN PAGE
+========================================================= */
+
+.admin-login-page {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px 20px;
+
+    /*
+       IMPORTANT:
+
+       Background image is added inside
+       AdminLogin.jsx using:
+
+       url("/adminlogin1-bg.png")
+
+       Therefore DO NOT add another
+       background-image here.
+    */
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   DARK BACKGROUND OVERLAY
+========================================================= */
+
+/*
+   Creates a dark professional effect
+   over the stadium background.
+
+   The image remains visible.
+*/
+
+.admin-login-page::before {
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.25),
+            rgba(0, 0, 0, 0.45)
+        );
+
+    z-index: 0;
+}
+
+
+/* =========================================================
+   ADMIN LOGIN CARD
+========================================================= */
+
+.admin-login-card {
+    width: 440px;
+
+    padding: 45px 40px;
+
+    /*
+       Dark transparent glass effect
+    */
+
+    background: rgba(15, 15, 15, 0.82);
+
+    /*
+       Light border
+    */
+
+    border: 1px solid rgba(255, 255, 255, 0.25);
+
+    border-radius: 20px;
+
+    /*
+       Card shadow
+    */
+
+    box-shadow:
+        0 25px 70px rgba(0, 0, 0, 0.65),
+        0 0 35px rgba(255, 102, 0, 0.15);
+
+    /*
+       Glass blur
+    */
+
+    backdrop-filter: blur(12px);
+
+    -webkit-backdrop-filter: blur(12px);
+
+    text-align: center;
+
+    /*
+       Keeps card above overlay
+    */
+
+    position: relative;
+
+    z-index: 2;
+}
+
+
+/* =========================================================
+   ANVIRA SPORTS TITLE
+========================================================= */
+
+.admin-login-card h1 {
+    color: #ff6600;
+
+    font-size: 34px;
+
+    font-weight: 800;
+
+    letter-spacing: 1px;
+
+    margin: 0 0 10px;
+}
+
+
+/* =========================================================
+   ADMIN LOGIN TITLE
+========================================================= */
+
+.admin-login-card h2 {
+    color: #ffffff;
+
+    font-size: 26px;
+
+    font-weight: 700;
+
+    margin: 0 0 32px;
+}
+
+
+/* =========================================================
+   ADMIN LOGIN INPUTS
+========================================================= */
+
+.admin-login-card input {
+    width: 100%;
+
+    height: 55px;
+
+    padding: 0 17px;
+
+    margin-bottom: 18px;
+
+    /*
+       Transparent input background
+    */
+
+    background: rgba(255, 255, 255, 0.13);
+
+    color: #ffffff;
+
+    border: 1px solid rgba(255, 255, 255, 0.30);
+
+    border-radius: 10px;
+
+    outline: none;
+
+    font-size: 16px;
+
+    transition: all 0.3s ease;
+}
+
+
+/* =========================================================
+   INPUT PLACEHOLDER
+========================================================= */
+
+.admin-login-card input::placeholder {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+
+/* =========================================================
+   INPUT FOCUS
+========================================================= */
+
+.admin-login-card input:focus {
+    border-color: #ff6600;
+
+    background: rgba(255, 255, 255, 0.17);
+
+    box-shadow:
+        0 0 0 2px rgba(255, 102, 0, 0.15),
+        0 0 18px rgba(255, 102, 0, 0.25);
+}
+
+
+/* =========================================================
+   LOGIN BUTTON
+========================================================= */
+
+.admin-login-card button {
+    width: 100%;
+
+    height: 55px;
+
+    margin-top: 8px;
+
+    background: #ff6600;
+
+    color: #ffffff;
+
+    border: none;
+
+    border-radius: 10px;
+
+    font-size: 18px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 8px 22px rgba(255, 102, 0, 0.30);
+
+    transition: all 0.3s ease;
+}
+
+
+/* =========================================================
+   LOGIN BUTTON HOVER
+========================================================= */
+
+.admin-login-card button:hover {
+    background: #e65c00;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 12px 28px rgba(255, 102, 0, 0.40);
+}
+
+
+/* =========================================================
+   LOGIN BUTTON ACTIVE
+========================================================= */
+
+.admin-login-card button:active {
+    transform: translateY(0);
+}
+
+
+/* =========================================================
+   ADMIN MAIN CONTAINER
+========================================================= */
+
+.admin-container {
+    width: 100%;
+
+    min-height: 100vh;
+
+    display: flex;
+}
+
+
+/* =========================================================
+   ADMIN SIDEBAR
+========================================================= */
+
+.admin-sidebar {
+    width: 260px;
+
+    min-height: 100vh;
+
+    flex-shrink: 0;
+
+    background: #1e293b;
+
+    color: #ffffff;
+
+    padding: 30px 20px;
+}
+
+
+/* =========================================================
+   SIDEBAR TITLE
+========================================================= */
+
+.admin-sidebar h2 {
+    text-align: center;
+
+    margin-bottom: 40px;
+
+    color: #ff6600;
+
+    font-size: 24px;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   SIDEBAR LINKS
+========================================================= */
+
+.admin-sidebar a {
+    display: block;
+
+    text-decoration: none;
+
+    color: #ffffff;
+
+    padding: 15px;
+
+    margin-bottom: 10px;
+
+    border-radius: 8px;
+
+    font-size: 17px;
+
+    transition: all 0.3s ease;
+}
+
+
+/* =========================================================
+   SIDEBAR LINK HOVER
+========================================================= */
+
+.admin-sidebar a:hover {
+    background: #334155;
+
+    color: #ff6600;
+
+    padding-left: 22px;
+}
+
+
+/* =========================================================
+   ADMIN LOGOUT BUTTON
+========================================================= */
+
+.admin-logout {
+    width: 100%;
+
+    margin-top: 40px;
+
+    padding: 14px;
+
+    background: #ff5722;
+
+    color: #ffffff;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    transition: all 0.3s ease;
+}
+
+
+/* =========================================================
+   LOGOUT BUTTON HOVER
+========================================================= */
+
+.admin-logout:hover {
+    background: #e64a19;
+
+    transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   ADMIN CONTENT
+========================================================= */
+
+.admin-content {
+    flex: 1;
+
+    min-width: 0;
+
+    padding: 35px;
+
+    background: #f4f6f9;
+}
+
+
+/* =========================================================
+   DASHBOARD TITLE
+========================================================= */
+
+.dashboard-title {
+    margin-bottom: 30px;
+
+    color: #222222;
+
+    font-size: 30px;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   DASHBOARD CARDS
+========================================================= */
+
+.dashboard-cards {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(220px, 1fr)
+        );
+
+    gap: 25px;
+}
+
+
+/* =========================================================
+   DASHBOARD CARD
+========================================================= */
+
+.dashboard-card {
+    background: #ffffff;
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 4px 15px rgba(0, 0, 0, 0.08);
+
+    transition: all 0.3s ease;
+}
+
+
+/* =========================================================
+   DASHBOARD CARD HOVER
+========================================================= */
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =========================================================
+   DASHBOARD CARD TITLE
+========================================================= */
+
+.dashboard-card h3 {
+    color: #666666;
+
+    margin-bottom: 15px;
+
+    font-size: 17px;
+}
+
+
+/* =========================================================
+   DASHBOARD CARD NUMBER
+========================================================= */
+
+.dashboard-card h1 {
+    color: #ff6600;
+
+    font-size: 34px;
+}
+
+
+/* =========================================================
+   ADMIN TABLE
+========================================================= */
+
+.admin-table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    background: #ffffff;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================================================
+   TABLE HEADER
+========================================================= */
+
+.admin-table th {
+    background: #ff6600;
+
+    color: #ffffff;
+
+    padding: 16px;
+
+    text-align: left;
+
+    font-size: 15px;
+}
+
+
+/* =========================================================
+   TABLE DATA
+========================================================= */
+
+.admin-table td {
+    padding: 15px;
+
+    border-bottom: 1px solid #eeeeee;
+
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   TABLE IMAGE
+========================================================= */
+
+.admin-table img {
+    width: 70px;
+
+    height: 70px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+}
+
+
+/* =========================================================
+   TABLE ROW HOVER
+========================================================= */
+
+.admin-table tr:hover {
+    background: #fafafa;
+}
+
+
+/* =========================================================
+   DELETE BUTTON
+========================================================= */
+
+.delete-btn {
+    background: #e53935;
+
+    color: #ffffff;
+
+    border: none;
+
+    padding: 10px 18px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+
+/* =========================================================
+   DELETE BUTTON HOVER
+========================================================= */
+
+.delete-btn:hover {
+    background: #c62828;
+
+    transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   EDIT BUTTON
+========================================================= */
+
+.edit-btn {
+    background: #ff9800;
+
+    color: #ffffff;
+
+    border: none;
+
+    padding: 10px 18px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+
+/* =========================================================
+   EDIT BUTTON HOVER
+========================================================= */
+
+.edit-btn:hover {
+    background: #ef6c00;
+
+    transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   TABLET RESPONSIVE
+========================================================= */
+
+@media (max-width: 900px) {
+
+    /*
+       Stack sidebar above content
+    */
+
+    .admin-container {
+        flex-direction: column;
+    }
+
+
+    /*
+       Full-width sidebar
+    */
+
+    .admin-sidebar {
+        width: 100%;
+
+        min-height: auto;
+
+        padding: 20px;
+    }
+
+
+    /*
+       Reduce sidebar title spacing
+    */
+
+    .admin-sidebar h2 {
+        margin-bottom: 20px;
+    }
+
+
+    /*
+       Reduce content spacing
+    */
+
+    .admin-content {
+        padding: 25px;
+    }
+
+
+    /*
+       Two dashboard cards per row
+    */
+
+    .dashboard-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE RESPONSIVE
+========================================================= */
+
+@media (max-width: 600px) {
+
+    /*
+       ADMIN LOGIN PAGE
+    */
+
+    .admin-login-page {
+        padding: 20px 15px;
+
+        background-position: center center;
+    }
+
+
+    /*
+       LOGIN CARD
+    */
+
+    .admin-login-card {
+        width: 100%;
+
+        max-width: 440px;
+
+        padding: 35px 25px;
+
+        border-radius: 15px;
+    }
+
+
+    /*
+       ANVIRA SPORTS TITLE
+    */
+
+    .admin-login-card h1 {
+        font-size: 28px;
+    }
+
+
+    /*
+       ADMIN LOGIN TITLE
+    */
+
+    .admin-login-card h2 {
+        font-size: 22px;
+
+        margin-bottom: 25px;
+    }
+
+
+    /*
+       INPUTS
+    */
+
+    .admin-login-card input {
+        height: 52px;
+
+        font-size: 15px;
+    }
+
+
+    /*
+       LOGIN BUTTON
+    */
+
+    .admin-login-card button {
+        height: 52px;
+
+        font-size: 17px;
+    }
+
+
+    /*
+       ADMIN CONTENT
+    */
+
+    .admin-content {
+        padding: 18px;
+    }
+
+
+    /*
+       ONE DASHBOARD CARD PER ROW
+    */
+
+    .dashboard-cards {
+        grid-template-columns: 1fr;
+    }
+
+
+    /*
+       RESPONSIVE ADMIN TABLE
+
+       Allows horizontal scrolling
+       on small mobile screens.
+    */
+
+    .admin-table {
+        display: block;
+
+        overflow-x: auto;
+
+        white-space: nowrap;
+    }
+
+}
